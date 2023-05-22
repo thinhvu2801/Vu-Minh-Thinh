@@ -1,0 +1,105 @@
+// module 'Mod Banner1'
+.mod-banner1 {
+
+}
+
+$color_1: #ffff;
+$font-family_1: 'Plus Jakarta Sans';
+$background-color_1: #043673;
+
+* {
+	border-radius: 4px;
+	color: $color_1;
+	padding: 0%;
+}
+.container {
+	padding: 0px 48px;
+}
+.wrap {
+	background-color: $background-color_1;
+}
+.main_heading {
+	font-family: $font-family_1;
+	font-style: normal;
+	text-align: center;
+	padding: 64px 48px 0px 48px;
+	font-size: 30px;
+}
+.content {
+	justify-content: center;
+	text-align: center;
+	gap: 16px;
+	padding: 40px 48px 72px 48px;
+}
+.pic1 {
+	padding-top: 72px;
+}
+.content1 {
+	font-family: $font-family_1;
+	font-size: 18px;
+	line-height: 160%;
+	text-align: center;
+}
+.container1 {
+	padding: 0px 48px;
+}
+@media screen and (min-width:768px) {
+	.main_heading {
+		font-family: $font-family_1;
+		font-style: normal;
+		text-align: center;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 45px;
+		padding: 64px 86px 24px 86px;
+	}
+	.content {
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 24px;
+		justify-content: center;
+	}
+	.container1 {
+		width: 48%;
+		padding: 0;
+	}
+	.content1 {
+		font-family: $font-family_1;
+		font-size: 18px;
+		text-align: center;
+		position: relative;
+	}
+	.picture {
+		padding: 0;
+		min-height: 59px;
+	}
+}
+@media screen and (min-width:1920px) {
+	.main_heading {
+		font-family: $font-family_1;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 60px;
+		padding: 120px 134px 0px 134px;
+	}
+	.pic1 {
+		width: 91px;
+		height: 91px;
+	}
+	.content {
+		display: flex;
+		padding-top: 24px;
+		justify-content: center;
+		padding: 24px 80px 64px 80px;
+	}
+	.container1 {
+		width: 23%;
+		padding: 0;
+		line-height: 28.8px;
+	}
+	.content1 {
+		margin: 46.21px;
+	}
+}
+
