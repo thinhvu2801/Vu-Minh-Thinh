@@ -9,7 +9,8 @@ let Space = {
   '50vw': '50vw',
   '100vw': '100vw',
   '50vh': '50vh',
-  '100vh': '100vh'
+  '100vh': '100vh',
+  '20':'20px'
 }
 
 for (let i = 0; i < max; i++) {

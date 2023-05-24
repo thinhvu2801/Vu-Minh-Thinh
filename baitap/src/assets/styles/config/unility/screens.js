@@ -1,7 +1,7 @@
 const Screens = {
   'sm': '481px',
   'md': '768px',
-  'lg': '992px',
+  'lg': '1920px',
   'xl': '1200px',
   '2xl': '1440px',
   '2k': '2000px',
