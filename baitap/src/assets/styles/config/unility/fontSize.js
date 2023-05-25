@@ -15,7 +15,7 @@ const fontSize = {
   '9xl': ['8rem', { lineHeight: '1' }],
   '18px': [rem(18), { lineHeight: '1.8' }],
   'h1': ['1.875rem', { lineHeight: '1.3'}],
-  'h2': [rem(32), { lineHeight: lineHeight(24, 32) }],
+  'h2': [rem(30), { lineHeight: lineHeight(24, 30) }],
   'h3': ['1.25rem', { lineHeight: '1.3' }],
   'h4': ['1.375rem', { lineHeight: '1.3' }],
   'h5': ['1.375rem', { lineHeight: '1.45455' }],
@@ -26,7 +26,7 @@ const fontSize = {
   'h4-md': ['1.75rem'],
   'h5-md': ['1.5rem'],
   'h6-md': ['1.25rem'],
-  'h2-lg': ['3rem'],
+
 
   'btn': ['.875em', { lineHeight: '1.2' }]
 
