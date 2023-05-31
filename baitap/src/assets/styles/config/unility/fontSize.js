@@ -29,7 +29,7 @@ const fontSize = {
   'h4-md': ['1.75rem'],
   'h5-md': ['1.5rem'],
   'h6-md': ['1.25rem'],
-
+  '40':['40px'],
 
   'btn': ['.875em', { lineHeight: '1.2' }]
 

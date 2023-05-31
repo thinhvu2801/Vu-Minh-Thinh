@@ -20,12 +20,12 @@
 }
 
 .slick-prev {
-  left: -25px;
+  // left: -25px;
 }
 
 
 .slick-next {
-  right: -25px;
+  // right: -25px;
 }
 
 .slick-dots {
@@ -52,13 +52,13 @@
 
     button {
       cursor: pointer;
-      border-radius: 50%;
+      // border-radius: 50%;
       text-indent: -9999px;
       @apply relative w-10 h-10 block;
 
       &::after {
         content: "";
-        @apply absolute w-5 h-5 top-0 left-0 block rounded-full bg-primary-100;
+        @apply absolute  h-5 top-0 left-0 block bg-primary-100 ;
         transition: 0.3s;
         transform: translateX(50%) translateY(50%);
       }

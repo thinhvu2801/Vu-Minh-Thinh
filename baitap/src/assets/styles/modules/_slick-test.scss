@@ -1,77 +1,105 @@
 @charset 'UTF-8';
 // stylelint-disable
 
-/* Icons */
+// / Icons /
 
-/* Arrows */
+// / Arrows /
 
 .slick-prev,
 .slick-next {
   position: absolute;
-  top: 50%;
-  display: block;
+  top: -100px;
   padding: 0;
   cursor: pointer;
   background: transparent;
   border: none;
   transform: translate(0, -50%);
   z-index: 11;
-  color: red;
+  display: flex;
+  justify-content: center;
+  color: #043673;
+  @apply lg:w-65p lg:top-45p lg:-left-83p lg:-ml-1p5 lg:text-40;
+  &:hover{
+    @apply text-blue-600;
+  }
 
+  @media (min-width:992px) {
+    top: 300px;
+  }
 }
 
 .slick-prev {
-  left: -25px;
-}
+  right: 70px;
+  width: 30px;
+  @media (min-width:992px) {
+    right: unset;
+    left: -50%;
+  }
+} 
 
 
 .slick-next {
-  right: -25px;
+  right: 22px;
+  @apply lg:-left-79p;
+  width: 30px;
+
+  @media (min-width:992px) {
+    right: unset;
+    left: -45%;
+  }
 }
 
 .slick-dots {
   position: absolute;
-  bottom: -25px;
-  display: block;
+  top: -50px;
   width: 100%;
-  padding: 0;
-  margin: 0;
+  padding: 0 32px;
   text-align: center;
   list-style: none;
+  display: flex;
+  justify-content: center;
+  height: 3px;
+  gap: 4px;
+  @apply md:justify-end;
+
+  @media (min-width: 992px) {
+    top: unset;
+    left: -100%;
+    bottom: 30px;
+  }
 
   li {
-    position: relative;
-    display: inline-block;
+    display: block;
+    width: 100%;
     padding: 0;
-    margin: 0 8px;
     margin-bottom: 0;
     cursor: pointer;
-
+    @apply md:w-10p lg:w-12p;
     &::before {
       display: none;
     }
 
     button {
       cursor: pointer;
-      border-radius: 50%;
-      text-indent: -9999px;
-      @apply relative w-10 h-10 block;
+      // border-radius: 50%;
+      // text-indent: -9999px;
+      @apply relative w-100p h-0p5 block;
 
       &::after {
         content: "";
-        @apply absolute w-5 h-5 top-0 left-0 block rounded-full bg-primary-100;
+        @apply absolute w-full h-0p5 top-0 p-0 block bg-blue-600;
+               
         transition: 0.3s;
-        transform: translateX(50%) translateY(50%);
+        transform: translateY(-50%);
       }
     }
 
-    &:hover,
     &.slick-active {
       button {
         &::after {
-          @apply bg-primary-200;
+          @apply bg-blue-400;
+          height: 3px;
         }
-
       }
     }
   }
@@ -84,4 +112,7 @@
       display: none;
     }
   }
+}
+.item-slider{
+  @apply px-5 lg:px-3p5;
 }
