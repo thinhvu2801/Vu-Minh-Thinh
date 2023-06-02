@@ -1,6 +1,6 @@
 @layer base {
   body {
-    @apply text-base text-black xl:text-lg;
+    @apply text-base font-jarkata text-black xl:text-lg;
   }
   html {
     @apply m-0;
@@ -11,22 +11,22 @@
   }
   h1,
   .h1 {
-    @apply text-h1 font-bold md:text-h1-md;
+    @apply text-h1 font-jarkata font-bold md:text-h1-md;
   }
 
   h2,
   .h2 {
-    @apply text-h2 font-bold md:text-h2-md;
+    @apply text-h2 font-jarkata font-bold md:text-h2-md;
   }
 
   h3,
   .h3 {
-    @apply text-h3 font-bold md:text-h3-md;
+    @apply text-h3 font-jarkata font-bold md:text-h3-md;
   }
 
   h4,
   .h4 {
-    @apply text-h4;
+    @apply text-h4 ;
   }
 
   h5,

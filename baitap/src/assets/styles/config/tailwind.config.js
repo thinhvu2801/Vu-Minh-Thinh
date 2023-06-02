@@ -15,11 +15,16 @@ module.exports = {
     fontFamily: {
       
       sans: ['Source Sans Pro', 'serif'],
-      body: ['Jost', 'sans-serif']
+      body: ['Jost', 'sans-serif'],
+      jarkata:['Plus Jakarta Sans']
     },
     screens: configs.Screes,
     extend: {
-
+      // {
+      //   backgroundImage: {
+      //     'my': "url('assets/images/AdobeStock_439165234 3.jpg')",
+      //   },
+      // }
       keyframes: {
         opacity: {
           'from': { opacity: '0' },
@@ -138,17 +143,14 @@ module.exports = {
           width: '100%',
           marginLeft: 'auto',
           marginRight: 'auto',
-          paddingLeft: '26px',
-          paddingRight: '26px',
-          '@screen lg': {
-            maxWidth: '1000px',
+          paddingLeft: '24px',
+          paddingRight: '24px',
+          '@screen md': {
             paddingLeft: '48px',
             paddingRight: '48px',
           },
           '@screen xl': {
             maxWidth: '1110px',
-            paddingLeft: '70px',
-            paddingRight: '70px',
           },
           '@screen 2xl': {
             maxWidth: '1390px'

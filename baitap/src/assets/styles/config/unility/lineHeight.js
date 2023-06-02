@@ -15,7 +15,11 @@ const lineHeight = {
   10: '2.5rem',
   11:   '2.625rem',
   12: '2.8rem',
-  13:'3.78rem'
+  13:'3.78rem',
+  14:'2.813rem',
+  15:'2.275rem',
+
+  
 }
 module.exports = {
   lineHeight

@@ -5,9 +5,9 @@ const init = () => {
   })
 }
 
-const <%= ClassName %> = (() => {
-  if ($this.length) {
-    init()
-  }
-})()
-export default <%= ClassName %>
+// const <%= ClassName %> = (() => {
+//   if ($this.length) {
+//     init()
+//   }
+// })()
+// export default <%= ClassName %>
