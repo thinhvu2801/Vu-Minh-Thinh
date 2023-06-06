@@ -44,12 +44,12 @@
 
   h1,
   h2,
-  h3,
   h4,
   h5,
   h6{
     @apply mb-8;
   }
+//h3....
 
   p,
   li,
@@ -78,7 +78,7 @@
 }
 
 a {
-  @apply text-primary-100 underline hover:no-underline hover:text-primary-200;
+  @apply text-blue-400 hover:underline hover:text-primary-200;
   
   &:-webkit-any-link:focus-visible {
     outline-offset: 3px;
