@@ -19,11 +19,11 @@ export default class SliderMod2col {
         slidesToShow: 1,
         infinite: false,
         centerMode: false,
-        prevArrow: '<button class="slick-prev prev arrows h1 text-Midnight-Blue"><span class="icomoon icon-chevron-left"></span><span class="sr-only">Prev slider</span></button>',
-        nextArrow: '<button class="slick-next next arrows h1 text-Midnight-Blue"><span class="icomoon icon-chevron-right"></span><span class="sr-only">Next slider</span></button>',
+        prevArrow: '<button class="slick-prev prev arrows h1"><span class="icomoon icon-chevron-left"></span><span class="sr-only">Prev slider</span></button>',
+        nextArrow: '<button class="slick-next next arrows h1"><span class="icomoon icon-chevron-right"></span><span class="sr-only">Next slider</span></button>',
         responsive: [
           {
-            breakpoint: 767,
+            breakpoint: 768,
             settings: {
               slidesToShow: 2,
             }

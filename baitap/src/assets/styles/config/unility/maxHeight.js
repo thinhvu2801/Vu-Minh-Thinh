@@ -3,6 +3,8 @@ const maxHeight = {
   '0.5': '1px',
   '200': '400px',
   '12':'24px',
+  '200':'400px',
+  
   full: '100%',
   screen: '100vh',
   initial: 'initial',
