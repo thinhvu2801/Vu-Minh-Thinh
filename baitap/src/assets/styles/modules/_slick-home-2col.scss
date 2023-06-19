@@ -33,7 +33,7 @@
 .dots {
   @apply absolute -top-25 w-full py-0 px-16 text-center list-none flex justify-center h-1p5 gap-2
         md:justify-end
-        xl:justify-start xl:w-87p xl:right-67p xl:top-70p xl:mr-7
+        xl:justify-start xl:right-67p xl:mr-7 xl:-left-70p xl:bottom-270 xl:w-70p
         2xl:right-90p 2xl:top-50p 2xl:w-64p;
 
 
