@@ -28,7 +28,7 @@ const fontSize = {
   '18px': [rem(18), { lineHeight: '1.6' }],
   'h1': ['1.875rem', { lineHeight: '1.3'}],
   'h2': [rem(30), { lineHeight: '1.4' }],
-  'h3': [rem(26), { lineHeight: lineHeight(16, 26) }],
+  'h3': ['1.625rem', { lineHeight:'2.25rem' }],
   'h4': ['1.375rem', { lineHeight: '1.3' }],
   'h5': ['1.375rem', { lineHeight: '1.45455' }],
   'h6': ['1.125rem', { lineHeight: '1.27778' }],

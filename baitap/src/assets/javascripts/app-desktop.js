@@ -3,7 +3,6 @@ import 'app-slider'
 
 // // js Custom
 import 'modules/FixHeight'
-import 'modules/SliderTest'
 
 import 'modules/BrowserDetection'
 import 'modules/CheckDevice'
