@@ -17,7 +17,7 @@ const fontSize = {
 
 
 
-  '2xl': ['1.5rem', { lineHeight: '2' }],
+  '2xl': ['1.5rem', { lineHeight: '1.4' }],
   '3xl': ['1.875rem', { lineHeight: '2.625' }],
   '4xl': ['2.25rem', { lineHeight: '2.5' }],
   '5xl': ['3rem', { lineHeight: '1' }],
@@ -25,9 +25,9 @@ const fontSize = {
   '7xl': ['4.5rem', { lineHeight: '1' }],
   '8xl': ['6rem', { lineHeight: '1' }],
   '9xl': ['8rem', { lineHeight: '1' }],
-  '18px': [rem(18), { lineHeight: '1.8' }],
+  '18px': [rem(18), { lineHeight: '1.6' }],
   'h1': ['1.875rem', { lineHeight: '1.3'}],
-  'h2': [rem(30), { lineHeight: lineHeight(24, 30) }],
+  'h2': [rem(30), { lineHeight: '1.4' }],
   'h3': [rem(26), { lineHeight: lineHeight(16, 26) }],
   'h4': ['1.375rem', { lineHeight: '1.3' }],
   'h5': ['1.375rem', { lineHeight: '1.45455' }],
