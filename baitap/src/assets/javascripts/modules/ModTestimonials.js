@@ -12,34 +12,32 @@ export default class ModTestimonials {
         mobileFirst: true,
         arrows: true,
         dots: true,
-        infinite: true,
-        centerMode: false,
+        // infinite: true,
+        rows: 0,
         
-        // slidesToShow: 1,
-        // autoplay: false,
-        // autoplaySpeed: 2000,
+        slidesToShow: 1,
         dotsClass: 'btn-dots',
         prevArrow: '<button class="slick-prev btn-prev arrows h1 text-blue-400"><span class="icomoon icon-chevron-left"></span><span class="sr-only">Prev slider</span></button>',
         nextArrow: '<button class="slick-next btn-next arrows h1 text-blue-400"><span class="icomoon icon-chevron-right"></span><span class="sr-only">Next slider</span></button>',
 
         responsive: [
           {
-            breakpoint: 768,
+            breakpoint: 767,
             settings: {
               slidesToShow: 2,
             }
           },
           {
-            breakpoint: 1280,
+            breakpoint: 1279,
             settings: {
               slidesToShow: 3,
-              variableWidth: true,
+              // variableWidth: true,
             }
           },
           {
-            breakpoint: 1920,
+            breakpoint: 1919,
             settings: {
-                slidesToShow: 3,
+                // slidesToShow: 3,
             }
           },
         ]

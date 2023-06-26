@@ -62,16 +62,26 @@
       }
     }
   }
-
   .slider {
-    @apply xl:-mr-100p xl:-ml-60 xl:pl-10;
+    // background-color: green;
+    // margin-right: -200px;
+    // margin-right: -100%;
+    @apply md:-mx-5 2xl:-mx-15.5;
   }
+    // @apply xl:-mr-100p xl:-ml-60 xl:pl-10 w-full;
   
   .testi-sub-items {
     box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.05);
+    @apply w-full h-full;
+  }
+  
+  .box {
+    box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.05);
     @apply w-full my-15 py-30 px-25
       md:py-10 xl:py-20 2xl:py-30  mx-0 md:mx-5 2xl:mx-15.5
-      xl:w-400;
+      2xl:w-400;
+    width: 368px;
+    border: solid 1px green;
   }
 
   .items-content {
