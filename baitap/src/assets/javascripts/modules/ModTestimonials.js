@@ -12,7 +12,6 @@ export default class ModTestimonials {
         mobileFirst: true,
         arrows: true,
         dots: true,
-        // infinite: true,
         rows: 0,
         
         slidesToShow: 1,
@@ -31,13 +30,7 @@ export default class ModTestimonials {
             breakpoint: 1279,
             settings: {
               slidesToShow: 3,
-              // variableWidth: true,
-            }
-          },
-          {
-            breakpoint: 1919,
-            settings: {
-                // slidesToShow: 3,
+              variableWidth: true,
             }
           },
         ]

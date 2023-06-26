@@ -143,17 +143,24 @@ module.exports = {
           width: '100%',
           marginLeft: 'auto',
           marginRight: 'auto',
-          paddingLeft: '24px',
-          paddingRight: '24px',
+          paddingLeft: '26px',
+          paddingRight: '26px',
           '@screen md': {
             paddingLeft: '48px',
             paddingRight: '48px',
           },
+          '@screen lg': {
+            maxWidth: '1000px',
+            paddingLeft: '48px', 
+            paddingRight: '48px'
+          },
           '@screen xl': {
-            maxWidth: '1110px',
+            maxWidth: '1136px',
+            paddingLeft: '0px',
+            paddingRight: '0px'
           },
           '@screen 2xl': {
-            maxWidth: '1390px'
+            maxWidth: '1600px',
           }
         },
         '.container.option-v2': {

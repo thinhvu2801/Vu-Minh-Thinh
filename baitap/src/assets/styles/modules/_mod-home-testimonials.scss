@@ -1,10 +1,10 @@
-@charset 'UTF-8';
-
 .mod-testimonials {
+  // background-color: #ccc;
+  margin: 20px 0;
   .btn-prev,
   .btn-next {
-    @apply absolute block p-0 cursor-pointer border-none outline-none text-15 -top-35 w-15
-      md:top-105p  ;
+    @apply absolute block p-0 cursor-pointer border-none outline-none text-15 -top-55 w-15
+      md:top-105p;
       font-size: 40px;
   }
   
@@ -17,8 +17,7 @@
   }
   
   .btn-dots {
-    // font-size: 0;
-    @apply absolute top-0 w-full p-0 pr-35 text-center list-none flex justify-center gap-18
+    @apply absolute -top-30 w-full p-0 pr-35 text-center list-none flex justify-center gap-18
       md:top-115p md:justify-end md:gap-27.5 right-7
       xl:justify-start xl:pr-0   xl:-left-1;
     
@@ -62,45 +61,45 @@
       }
     }
   }
-  .slider {
-    // background-color: green;
-    // margin-right: -200px;
-    // margin-right: -100%;
-    @apply md:-mx-5 2xl:-mx-15.5;
-  }
-    // @apply xl:-mr-100p xl:-ml-60 xl:pl-10 w-full;
-  
-  .testi-sub-items {
-    box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.05);
-    @apply w-full h-full;
-  }
-  
-  .box {
-    box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.05);
-    @apply w-full my-15 py-30 px-25
-      md:py-10 xl:py-20 2xl:py-30  mx-0 md:mx-5 2xl:mx-15.5
-      2xl:w-400;
-    width: 368px;
-    border: solid 1px green;
-  }
 
-  .items-content {
-    @apply    text-gray-300 my-30 md:my-0 xl:my-20 2xl:my-30;
-  }
-
-  img {
-    @apply w-10 h-10;
-  }
-
-  .title > h3 {
-    @apply font-bold text-15 m-0;
-  }
-
-  .title > a > p {
-    @apply font-bold m-0;
-  }
-
-  .items-footer > h6 {
-    @apply font-semibold   ;
+  .container {
+    .testi-content {
+      .testi-headline {
+        // border: solid 1px;
+        div {
+          h3 {
+            @apply text-20;
+          }
+        }
+      }
+      .testi-items {
+        padding-left: 10px;
+        margin-right: -100%;
+        .box {
+          margin-right: 20px;
+          @apply xl:w-340 2xl:w-450;
+          .testi-sub-items {
+            box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.05);
+            padding: 30px 20px;
+            @apply w-full h-full;
+            .heading-items {
+              .title {
+                h5 {
+                  @apply text-10 2xl:text-13;
+                }
+              }
+            }
+            .desc-items {
+              p {
+                @apply text-8 2xl:text-10;
+              }
+            }
+            .signature {
+              font-size: 18px;
+            }
+         }
+       }
+      }
+    }
   }
 }
