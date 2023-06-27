@@ -1,5 +1,4 @@
 .mod-testimonials {
-  // background-color: #ccc;
   margin: 20px 0;
   .btn-prev,
   .btn-next {
@@ -74,7 +73,7 @@
       }
       .testi-items {
         padding-left: 10px;
-        margin-right: -100%;
+        // margin-right: -100%;
         .box {
           margin-right: 20px;
           @apply xl:w-340 2xl:w-450;

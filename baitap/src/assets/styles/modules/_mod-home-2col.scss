@@ -19,7 +19,7 @@
   }
   
   .btn-dots {
-    @apply absolute top-0 w-full p-3 pr-35 text-center list-none flex justify-center gap-18
+    @apply absolute -top-11 w-full p-5 pr-35 text-center list-none flex justify-center gap-18
       md:top-115p md:justify-end md:gap-27.5 right-7
       xl:justify-start xl:pr-0   xl:-left-1;
     
@@ -95,6 +95,6 @@
   }
   
   .item-slider{
-    @apply px-5 w-90  xl:px-3p5 xl:w-600;
+    @apply px-5 w-90 pt-10 -top-5  xl:px-3p5 xl:w-600;
   }
 }
