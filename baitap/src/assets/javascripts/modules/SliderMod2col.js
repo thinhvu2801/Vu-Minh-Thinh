@@ -25,22 +25,23 @@ export default class SliderMod2col {
 
       responsive: [
         {
-          breakpoint: 768,
+          breakpoint: 767,
           settings: {
             slidesToShow: 2,
           }
         },
         {
-          breakpoint: 1280,
+          breakpoint: 1279,
           settings: {
-            // slidesToShow: 3,
             variableWidth: true,
           }
         },
         {
-          breakpoint: 1920,
+          breakpoint: 1919,
           settings: {
-              // slidesToShow: 3,
+            slidesToShow: 2,
+            variableWidth: true,
+
           }
         },
       ]
@@ -48,4 +49,4 @@ export default class SliderMod2col {
   }
   }
   new SliderMod2col().init()
-  console.log('hello everyone')
+  console.log('ola')

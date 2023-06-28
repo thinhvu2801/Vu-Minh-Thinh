@@ -38,6 +38,9 @@ const fontSize = {
   'h4-md': ['1.75rem'],
   'h5-md': ['1.5rem'],
   'h6-md': ['1.25rem'],
+  'h3-2xl': [rem(36)],
+  'h4-2xl': [rem(25)],
+  
   '40':['40px'],
 
   'btn': ['.875em', { lineHeight: '1.2' }]

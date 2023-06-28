@@ -19,6 +19,8 @@ const lineHeight = {
   14:'2.813rem',
   15:'2.275rem',
   2.6:'2.6rem',
+  0.5:'0.5rem',
+
 
   
 }

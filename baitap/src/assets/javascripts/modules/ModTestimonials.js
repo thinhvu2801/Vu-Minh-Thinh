@@ -30,7 +30,6 @@ export default class ModTestimonials {
             breakpoint: 1279,
             settings: {
               slidesToShow: 3,
-              variableWidth: true,
             }
           },
         ]
