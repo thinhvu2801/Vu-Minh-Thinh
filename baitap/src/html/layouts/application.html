@@ -9,7 +9,7 @@
       content="width=device-width, maximum-scale=5, initial-scale=1, viewport-fit=cover"
     />
     <title>{% block title %}{{ title }}{% endblock %}</title>
-    <meta name="description" content="{{ intro }}" />
+    <meta name="description" content="intro text blog page here" />
     <link rel="icon" href="favicon.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="favicon.png" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -18,27 +18,27 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="format-detection" content="telephone=no" />
     <!-- Facebook Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://example.com/page.html" />
-    <meta property="og:title" content="Content Title" />
-    <meta property="og:image" content="https://example.com/image.jpg" />
-    <meta property="og:description" content="Description Here" />
-    <meta property="og:site_name" content="Site Name" />
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://localhost:3000/home.html#" />
+    <meta property="og:title" content="Ergomotion.com" />
+    <meta property="og:image" content="https://cdn.fbsbx.com/v/t59.2708-21/358499749_179964138204962_8423131303813462240_n.svg/Frame-9798.svg?_nc_cat=109&ccb=1-7&_nc_sid=0cab14&_nc_ohc=rSRY35lpTMoAX-TqQUP&_nc_ht=cdn.fbsbx.com&oh=03_AdTriN0NIliC7cysY_dusbiWuSl5A6okZ089t6NpdGw4iw&oe=64A9CE56&dl=1"/>
+    <meta property="og:description" content="Adjust to amazing" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="http://localhost:3000/home.html#">
+    <meta name="twitter:title" content="Ergomotion.com">
+    <meta name="twitter:description" content="Adjust to amazing">
+    <meta name="twitter:image" content="https://cdn.fbsbx.com/v/t59.2708-21/358499749_179964138204962_8423131303813462240_n.svg/Frame-9798.svg?_nc_cat=109&ccb=1-7&_nc_sid=0cab14&_nc_ohc=rSRY35lpTMoAX-TqQUP&_nc_ht=cdn.fbsbx.com&oh=03_AdTriN0NIliC7cysY_dusbiWuSl5A6okZ089t6NpdGw4iw&oe=64A9CE56&dl=1">
+    <!-- LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ergomotion.com">
+    <meta property="og:description" content="Adjust to amazing">
+    <meta property="og:image" content="https://cdn.fbsbx.com/v/t59.2708-21/358499749_179964138204962_8423131303813462240_n.svg/Frame-9798.svg?_nc_cat=109&ccb=1-7&_nc_sid=0cab14&_nc_ohc=rSRY35lpTMoAX-TqQUP&_nc_ht=cdn.fbsbx.com&oh=03_AdTriN0NIliC7cysY_dusbiWuSl5A6okZ089t6NpdGw4iw&oe=64A9CE56&dl=1">
+    <meta property="og:url" content="http://localhost:3000/home.html#">
     <!-- Next tags are optional but recommended -->
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="content here" />
-    <meta name="twitter:site" content="@site_account" />
-    <meta name="twitter:creator" content="@individual_account" />
-    <meta name="twitter:url" content="https://example.com/page.html" />
-    <meta name="twitter:title" content="Content Title" />
-    <meta
-      name="twitter:description"
-      content="Content description less than 200 characters"
-    />
-    <meta name="twitter:image" content="https://example.com/image.jpg" />
     <link href="https://fonts.googleapis.com" rel="dns-prefetch" crossorigin />
     <link href="https://cdnjs.cloudflare.com" rel="dns-prefetch" crossorigin />
     <link href="https://fonts.googleapis.com" rel="preconnect" crossorigin />
@@ -51,16 +51,16 @@
   </head>
 
   <body {% block bodyClass %}{% endblock %}>
-    {% block header %}
+    <!-- {% block header %}
     {% include "modules/global/header.html" %}
-    {% endblock %}
+    {% endblock %} -->
 
     {% block content %}
     {% endblock %}
 
-    {% block footer %}
+    <!-- {% block footer %}
     {% include "modules/global/footer.html" %}
-    {% endblock %} 
+    {% endblock %}  -->
 
     {% block javascript %}
     {% include "modules/global/javascript.html" %}

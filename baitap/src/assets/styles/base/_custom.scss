@@ -39,7 +39,6 @@
     color: inherit;
   }
   a:not(.btn) {
-    color: inherit;
     @apply underline hover:no-underline;
   }
 }
@@ -55,4 +54,22 @@
 }
 .para{
   @apply text-gray-400 xl:text-8;
+}
+@layer utilities {
+  @keyframes h1animation {
+    0%   { color: red; left: 0px; top: 0px; }
+    25%  { color: orange; left: 100px; top: 0px; }
+    50%  { color: yellow; left: 200px; top: 0px; }
+    75%  { color: green; left: 300px; top: 0px; }
+    100% { color: blue; left: 400px; top: 0px; }
+  }
+}
+
+@layer components {
+  .custom-animation {
+    animation-name: h1animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
 }
