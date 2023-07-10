@@ -76,6 +76,10 @@
 img {
   @apply w-full h-full;
 }
+p,
+{
+  @apply text-gray-500;
+}
 // 2col-2
 .box-item{
   @apply w-full md:w-1/2
@@ -85,4 +89,36 @@ img {
 }
 .item-content{
   @apply p-10 md:px-0 2xl:pr-45
+}
+//home-button
+.h5-cus{
+  @apply text-h5 text-gray-500 font-medium md:text-h5-md xl:text-h5-xl ;
+}
+.h2-cus{
+  @apply text-h2 font-jarkata font-bold md:text-h2-md xl:text-16 2xl:text-5xl ;
+}
+//promo
+.p-cus{
+  @apply text-18px px-48 font-medium -mt-6 md:pl-0 md:pr-0;
+}
+//2col2
+.p-2col{
+  @apply font-semibold;
+}
+.p-link{
+  @apply text-blue-400;
+}
+//3col
+.p-3col{
+  @apply font-semibold;
+}
+.p-footer{
+  @apply text-white;
+}
+.iconfooter{
+  @apply hover:text-blue-400;
+}
+//footer
+.h4-footer{
+  @apply xl:text-12 xl:font-medium xl:leading-10;
 }
