@@ -1,0 +1,6 @@
+.home-button{
+    @apply  bg-blue-400 rounded-4 text-[14px] px-16 py-8 text-white flex justify-center w-83 hover:bg-blue-700;
+}
+.icon-arrow-right{
+    @apply hover:text-blue-400;
+}

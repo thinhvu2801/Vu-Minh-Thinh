@@ -11,14 +11,17 @@
   }
   h1,
   .h1 {
-    @apply text-h1 font-jarkata font-bold md:text-h1-md xl:text-h1-xl;
+    @apply text-h1 font-jarkata font-bold md:text-h1-md xl:text-21 2xl:text-36;
   }
 
   h2,
   .h2 {
     @apply text-h2 font-jarkata font-bold md:text-h2-md xl:text-h2-xl;
   }
+  .h2-cus{
+    @apply text-h2 font-jarkata font-bold md:text-h2-md xl:text-16 2xl:text-5xl ;
 
+  }
   h3,
   .h3 {
     @apply text-h3 font-jarkata font-medium md:text-h3-md xl:text-h3-xl;
@@ -33,7 +36,9 @@
   .h5 {
     @apply text-h5 font-bold md:text-h5-md xl:text-h5-xl;
   }
-
+  .h5-cus{
+    @apply text-h5 text-gray-500 font-medium md:text-h5-md xl:text-h5-xl ;
+  }
   h6,
   .h6 {
     @apply text-h5 font-medium;
