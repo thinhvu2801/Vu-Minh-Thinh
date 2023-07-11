@@ -290,7 +290,9 @@ h6 {
   opacity: 1 !important;
   left: 0 !important;
 }
-
+.btn-dots{
+  display: none;
+}
 
 
 .navbar-expand-lg,
@@ -307,4 +309,7 @@ h6 {
 }
 .label{
     display: block;
+}
+.menubutton{
+  display: none;
 }
